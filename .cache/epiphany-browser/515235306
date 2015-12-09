@@ -1,0 +1,522 @@
+/* Global Styles */
+
+table  { border-collapse: collapse; border-spacing: 0; }
+
+td, th { padding: 0; }
+
+body {
+	background-color: FFFFFF;
+}
+
+img {/* border style for all images */
+  border: 0;
+}
+
+#title-bar {
+	font:bold 16px Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: none;
+	letter-spacing:.1em;
+	line-height:30px;
+	display:block;
+	text-align:center;
+	padding:10px 10px 10px 20px;
+}
+
+/* This is the top line of text in the main
+	  content area. */
+#title {
+	font: 15px Arial, Helvetica, sans-serif;
+	color: #000000;
+	line-height:15px;
+	text-align:left;
+	padding-top: 15px;
+}
+
+#error {
+	font:15px Arial, Helvetica, sans-serif;
+	color: red;
+	line-height:20px;
+	text-align:left;
+	padding-top: 20px;
+}
+
+
+#line-one {
+	font:15px Arial, Helvetica, sans-serif;
+	color: #000000;
+	line-height:20px;
+	text-align:left;
+	padding-top: 20px;
+}
+
+
+#line-get-started {
+	font:13px Arial, Helvetica, sans-serif;
+	color: #000000;
+	line-height:20px;
+	text-align:left;
+}
+
+#line-two {
+	font:15px Arial, Helvetica, sans-serif;
+	color: #000000;
+	line-height:20px;
+	text-align:left;
+}
+
+
+#line-info {
+	font:11px Arial, Helvetica, sans-serif;
+	color: #666666;
+	line-height:16px;
+	text-align:left;
+        padding-right: 40px;
+}
+
+
+#button-large {
+        background-color: #99FF99;
+	color: black;
+	border: 1px black solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	cursor: pointer;
+	text-decoration: none;
+	letter-spacing:.05em;
+	height: 20px;
+	font: bold 10px arial, sans-serif;
+}
+
+#button-large:hover {
+    background-color: #99FF99;
+	color: black;
+	font-weight: bold;
+}
+
+#button-large:active {
+    background-color: #99FF99;  
+	color: black;
+	font-weight: bold;
+}
+
+#button-disabled {
+        background-color: white;
+	color: gray;
+	border: 1px gray solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	cursor: pointer;
+	text-decoration: none;
+	letter-spacing:.05em;
+	height: 20px;
+	font: bold 10px arial, sans-serif;
+}
+
+#radio-large {
+      width: 80px;
+	color: red;
+}
+
+#option-title {
+	font:bold 14px Arial, Helvetica, sans-serif;
+	color: #000000;
+	line-height:16px;
+	text-align:left;
+}
+
+
+
+#main-table {
+	background-color: white;
+	height: 100%;
+	width: 100%;
+}
+
+/*  This is the td that contains the 
+	topbar-table. */
+#topbar {
+	vertical-align: top;
+	text-align: left;
+	width: 100%;
+}
+
+/* 	This is the table that contains the image
+	and captions for the topbar. */
+#topbar-table {
+}
+
+/*  This is the td that contains the 
+	captions in the topbar. */
+#topbar-caption {
+	width:  100%;
+	text-align: left;
+}
+
+/*  In the topbar, this is the first line of 
+	text, such as 'Welcome To'   */
+#topbar-caption-top {
+	font-family: verdana; 
+	font-size: 19px; 
+	padding-bottom: 7px; 
+	padding-right: 0px;
+	text-align: center;
+	white-space: nowrap;
+	width: 100%;
+	color: 011F5B;
+}
+
+/*  In the topbar, this is the second line of 
+	text, such as 'My Network'   */
+#topbar-caption-bottom {
+	font-family: verdana; 
+	font-size: 25px; 
+	padding-right: 0px;
+	text-align: center;
+	white-space: nowrap;
+	width: 100%;
+	color: 011F5B;
+}
+
+/*  This is the image that appears on the left
+	side of the topbar. */
+#topbar-image {
+	width: 1;
+	text-align: left;
+	padding-left: 0px;
+	padding-right: 10px;
+      padding-bottom: 10px;
+}
+
+/*	This is the cell in the middle of the page
+	that contains the content-table.  */
+#content-cell {
+	height: 100%; 
+	width: 100%;
+	text-align: center; 
+	vertical-align: top;
+}
+
+/*  This is the content area in the center cell
+	(between icons) from top to bottom of the 
+	inner area. */
+#content-table {
+	height: 100%;
+	width: 100%;
+}
+
+/* 	This is the line below the topbar in the
+	content area. */
+#content-line-top {
+	background-color: FFFFFF;
+	height:2px;
+}
+
+/* 	This is the line above the control buttons
+	in the content area. */
+#content-line-bottom {
+	background-color: FFFFFF;
+	height:2px;
+}
+
+#content-spacing {
+	height: 10px;
+}
+
+/*  This is the td that contains the 
+	next and back buttons. */
+#content-control-buttons {
+	width: 100%;
+	text-align: right;
+	white-space: nowrap;
+}
+
+/*  This is the TD that contains the top curve
+    images. */
+#frame-curve-top {
+	vertical-align: top;
+	background-color: FFFFFF;
+	height: 12px;
+}
+
+/*  This is the TD that contains the bottom curve
+    images. */
+#frame-curve-bottom {
+	vertical-align: bottom;
+	background-color: FFFFFF;
+	height: 12px;
+}
+
+#frame-curve-side {
+	background-color: #FFFFFF;
+}
+	
+/*  This is used in the page1's default text */
+#line-eula {
+	font:11px Arial, Helvetica, sans-serif;
+	color: #000000;
+	line-height:20px;
+	text-align:left;
+}
+
+#content-small-font {
+	font:11px Arial, Helvetica, sans-serif;
+}
+
+
+/** Used on iphone.html for the network name link. */
+.iphone-title {
+  font: 15px Arial, Helvetica, sans-serif;
+  color: #666666;
+  line-height: 25px;
+  text-align: left;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.iphone-space {
+  height: 20px;
+}
+
+/** Used on iphone.html for the network name link. */
+.iphone-link {
+	font:19px Arial, Helvetica, sans-serif;
+	color: #0000FF;
+	line-height:25px;
+	text-align:left;
+	padding-bottom: 3px;
+	padding-left: 20px;
+}
+
+/** Used on iphone_done_*.html for the instruction list. */
+.iphone-item {
+	font:15px Arial, Helvetica, sans-serif;
+	color: #000000;
+	line-height:18px;
+	text-align:left;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+
+/** Used on iphone_done_*.html for the instruction list. */
+.iphone-note {
+        font:12px Arial, Helvetica, sans-serif;
+        color: #666666;
+        line-height:18px;
+        text-align:left;
+        padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+/** Used on iphone.html for the ssid line. */
+.iphone-ssid {
+	font:13px Arial, Helvetica, sans-serif;
+	color: #666666;
+	line-height:18px;
+	text-align:left;
+        padding-bottom: 2px;
+	padding-left: 20px;
+}
+
+/** Used on iphone.html for the network description text. */
+.iphone-description {
+	font:13px Arial, Helvetica, sans-serif;
+	color: #666666;
+	line-height:18px;
+	text-align:left;
+        padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+
+.iphone-login-directions {
+        font:13px Arial, Helvetica, sans-serif;
+        color: #666666;
+        line-height:18px;
+        text-align:left;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 10px;
+}
+
+
+.iphone-login-label {
+        font:13px Arial, Helvetica, sans-serif;
+        color: #666666;
+        line-height:18px;
+        text-align:left;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-top: 10px; 
+        vertical-align: middle; 
+        padding-right: 5px;
+}
+
+.iphone-login-input {
+        font:13px Arial, Helvetica, sans-serif;
+        color: #666666;
+        line-height:18px;
+        text-align:left;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        vertical-align: middle; 
+        padding-right: 5px;
+}
+
+
+.iphone-login-link {
+        font:13px Arial, Helvetica, sans-serif;
+        text-align:left;
+        padding-bottom: 10px;
+        padding-left: 5px;
+}
+
+
+.iphone-login-error {
+}
+
+.iphone-login-error-outer {
+        padding-left: 5px;
+        padding-bottom: 15px;
+}
+
+.iphone-login-error-inner {
+        font: 13px Arial, Helvetica, sans-serif;
+        border: 1px solid red;
+        color: red;
+        padding: 5px;
+}
+
+
+.expand-cell-header { 
+  color:#FFFFFF;
+  font:16px verdana, arial, sans-serif;
+  display:block;
+  background-color: #9A9AAA; 
+  /* The bottom margin is manually set.  This is necessary to avoid 
+     a gap below the header & inner */
+  margin-bottom: 0px;
+  height: 30px;
+  font-weight: bold
+}
+
+.expand-cell-header span{
+  padding:5px 10px 0px 10px;
+  display:block;
+}
+
+.expand-cell-header-link, .expand-cell-header-link a:link, .expand-cell-header-link a:visited{
+  color:#FFFFFF;
+  text-decoration:none;
+  display:block;
+}
+
+.expand-cell {
+  font-size: 14px; 
+}
+
+.expand-cell span{
+  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 20px;
+  display:block; 
+  border: 1px solid #9A9AAA;
+}
+
+.expand-cell-item {
+  padding-top:15px;
+}
+
+.expand-cell-item-top {
+  padding-top:5px;
+}
+
+.expand-cell-subitem {
+  padding-top:8px;
+  padding-left:10px;
+  font-size: 13px;
+}
+
+.expand-cell-note {
+  padding-top:15px;
+  /* The margin is shifted left to adjust for the ordered-list numbers. */
+  margin-left: -20px;
+  color: #666666;
+  font-size:  13px;
+  text-align:left;
+}
+
+.expand-cell-header-collapsed {
+}
+
+/** Tagline on page1 */
+.tagline {
+  text-align: right;
+  padding-bottom: 4px;
+  padding-right: 20px;
+  font: 9px verdana, arial, sans-serif;
+  color: 999999;
+}
+
+.tagline a {
+ text-decoration: none;
+ color: 999999;
+}
+
+.cpx-content-wait-shadow { display:none; position: absolute; top: 0%; left: 0%; width: 100%; height: 100%; background-color: black; z-index: 1001; -moz-opacity: 0.5; opacity: .50; filter: alpha(opacity=50); }
+.cpx-content-wait       { display:none; width: 400px; height: 100px; background-color: white; border: 1px solid #333333; border-radius: 20px 20px 20px 20px; position: absolute; top: 200px; left: 40%; z-index: 1002; overflow: auto; }
+.cpx-content-wait-title { font-size: 15px; font-weight: bold; padding-top: 35px; padding-left: 140px; text-align: left; }
+.cpx-content-wait-image { float: left; padding-left: 80px; padding-top: 30px; }
+
+
+.cpn-manualOption { margin-top: 20px; border-top: 2px solid FFFFFF; padding-top: 10px; padding-left: 10px; font:11px Arial, Helvetica, sans-serif; }
+
+.cpn-manualOption-button { border: 1px solid black; text-align: center; font-size: 11px; margin-top: 5px; margin-bottom: 5px; background-color: #E0E0E0; padding-top: 3px; padding-bottom: 3px; color: black; float: left; margin-left: 5px; margin-right: 5px; padding-left: 4px; padding-right: 4px; border-radius: 3px; min-width: 60px; }
+.cpn-manualOption-button a { text-decoration: none; color: black; }
+.cpn-manualOption-instruction {  }
+.cpn-manualOption-note { padding-top:15px; color: #666666; font-size:  13px; text-align:left; padding-left: 20px; }
+
+.cpn-manualOption-android { margin-top: 10px;  padding-left: 20px; }
+.cpn-manualOption-button-android { float: left; }
+.cpn-manualOption-button-android a { }
+
+.cpn-manualOption-button-ios { float: left; margin-top: 30px; margin-left: 20px; }
+.cpn-manualOption-instruction-ios { float: left; margin-top: 30px; margin-left: 10px; }
+
+.cpn-manualOption-button-mac { float: left; margin-top: 30px; margin-left: 20px; }
+.cpn-manualOption-instruction-mac { float: left; margin-top: 30px; margin-left: 10px; }
+
+.cpn-manualOption-text-unsupported { margin-top: 20px; margin-left: 20px; margin-bottom: 10px; }
+.cpn-manualOption-label { float: left; padding-right: 10px; padding-top: 0px; }
+.cpn-manualOption-androidCombo { float: left; margin-top: 5px; }
+
+
+
+
+
+.cpx-selectionPrompt-title {padding-left: 0px;}
+.cpx-selectionPrompt-main { text-align: center; }
+.cpx-selectionPrompt-inner { border: 0px solid blue; text-align:center; max-width: 460px; margin:auto; padding-bottom:10px;}
+.cpx-selectionPrompt-messageHtml { margin-left: 20px; height:15px; }
+.cpx-selectionPrompt-item { border: 0px solid white; padding-bottom: 5px; padding-top: 5px; margin-left:0px;}
+.cpx-selectionPrompt-item-icon { padding-top:10px; float: left; width: 200px; text-align: center; }
+.cpx-selectionPrompt-item-icon img { border: 0px; }
+.cpx-selectionPrompt-item-text { border: 0px solid red; margin-left: 200px; padding-right: 5px;}
+.cpx-selectionPrompt-item-textTitle { text-align: left; line-height: 30px; border-bottom: 0px solid #CCCCCC; margin-bottom: 4px; }
+.cpx-selectionPrompt-item-textTitle a { font-size: 17px; font-weight: normal; color: black; text-decoration: underline; cursor: pointer; }
+.cpx-selectionPrompt-item-textDescription { text-align: left; line-height: 18px; }
+.cpx-selectionPrompt-item-textDescription a { font-size: 13px; color: black; text-decoration: none; }
+.cpx-selectionPrompt-item-textDescriptionFont {font-size: 11px; color: #222222;}
+.cpx-selectionPrompt-item-textTitleFont { font-size: 15px; font-weight: bold; color: #222222; }
+.cpx-selectionPrompt-item-text-noIcon { margin-left: 20px; }
+.cpx-selectionPrompt-item-icon-noIcon { display: none; }
+.cpx-selectionPrompt-buttons {padding: 0px 0 0 0;margin: 0; max-width: 460px; }
+.cpx-selectionPrompt-buttons li{list-style: none;padding: 0 0 5px 0;margin: 0; }
+.cpx-selectionPrompt-button a{background-color: white; min-width: 420px; min-height: 80px; display: block; border: 1px solid #C0C0C0; border-radius: 10px; text-decoration: none; }
+.cpx-selectionPrompt-button a:hover{ border: 1px solid #999999; background-color: #F6f6f6;}

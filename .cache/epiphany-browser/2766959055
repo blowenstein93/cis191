@@ -1,0 +1,172 @@
+<html>
+<head>
+  <!-- ViewPort controls the display on Apple iPhone. -->  
+  <META NAME="viewport" CONTENT="width=device-width"/>
+  <!-- Make sure this page is never cached. -->
+  <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">  
+  <META HTTP-EQUIV="Pragma" CONTENT="no-cache"> 
+  <META HTTP-EQUIV="expires" content="FRI, 13 APR 1999 01:00:00 GMT"> 
+  <META NAME="description" CONTENT="XpressConnect is a network wizard which provides
+                                    quick, automated, cross-platform, self-service onboarding for Bring-Your-Own-Device (BYOD or BYOT) devices using secure connections, including
+                                    wired & wireless 802.1X (PEAP, TTLS, TLS), WPA-Enterprise, WPA2-Enterprise, WPA-PSK, WPA2-PSK, and much more.  Proven on millions of devices worldwide, it is clear path to WPA2-Enteprise for secure BYOD.  
+                                    Join now by visiting www.cloudpath.net for more information. ">
+
+  <title>XpressConnect by Cloudpath Networks</title>
+
+  <link type="text/css" rel="stylesheet" href="css/main.css">
+
+
+  <!-- START OF ERROR HANDLER -->
+  <SCRIPT language=JavaScript>
+  function errorHandler(message, url, line)
+  {
+    return true;
+  }
+  // install the global error-handler
+  window.onerror = errorHandler;
+  </SCRIPT>
+  <NOSCRIPT>
+    <!-- No need to register javascript error handler. -->
+  </NOSCRIPT>
+  <!-- END OF ERROR HANDLER -->
+
+
+  <script src="scripts/main.js" type="text/javascript"></script> 
+</head>
+
+<body name='main' onload='doOnLoad();'>
+
+<div id='cpx-wait-shadow' class='cpx-content-wait-shadow cpx-oauthSelection-wait-shadow'></div>
+<div id='cpx-wait' class='cpx-content-wait cpx-oauthSelection-wait'>
+  <div class='cpx-content-wait-image cpx-oauthSelection-wait-image'>
+    <img src='images/loading.gif' alt="Loading indicator"/>
+  </div>
+  <div class='cpx-content-wait-title cpx-oauthSelection-wait-title'>
+    Please Wait...
+  </div>
+</div>
+
+<table id='background' width='100%' border='0' height='100%'>
+<tr><td height='20'></td></tr>
+<tr valign='middle'>
+  <td id='height-control' height='350' valign='middle' width='100%' align='center'>
+    <table width='80%' height='100%'>
+    <tr><td></td><td class='tagline'><a href='http://www.cloudpath.net?c=2&byod'>BYOD Powered by Cloudpath Networks</a></td></tr>
+    <tr>
+      <td></td>
+      <td align='center' height='100%' width='100%'>
+        <table id='main-table'>
+
+        <tr valign='bottom'> 
+          <td id='frame-curve-top'><img height='20px' width='16px' src="images/CurveUlImage.gif" alt="University of Pennsylvania uses XpressConnect by Cloudpath Networks to automatically onboard BYOD devices for WPA2-Enterprise secure WiFi."/></td>
+          <td>&nbsp;</td>
+          <td id='frame-curve-top'><img height='20px' width='16px' src="images/CurveUrImage.gif" alt="Background curve top"/></td>
+        </tr>
+
+        <tr valign='top'> 
+          <td height='100%' id='frame-curve-side'><img width='16px' src='images/CurveSideImage.gif' height='100%' alt="Background curve side" /></td>
+            <td id='content-cell'>
+
+            <!-- START OF CONTENT AREA -->
+            <table border=0 id='content-table'>
+            <tr>
+              <td id='topbar'>
+                <table id='topbar-table'>
+          	    <tr>
+          	      <td>
+                    <table>
+                      <tr>
+                        <td id='topbar-image'><img src='images/shield-color.gif' alt="onboarding banner image" /></td>
+          	            <td id='topbar-caption'><table>
+      <tr>
+        <td id='topbar-caption-top'>Welcome to the</td>
+      </tr>
+      <tr>
+        <td id='topbar-caption-bottom'>University of Pennsylvania Network</td>
+      </tr>
+    </table></td>
+                      </tr>
+		        </table>				  
+	            </td>
+		    </tr>
+                </table>
+              </td>
+            </tr>
+            <tr><td id='content-line-top'></td></tr>
+
+            <!-- START OF Content Area -->
+            <tr>
+              <td id='title'>
+		    XpressConnect is loading...
+		  </td>
+		</tr>
+          
+		<tr>
+		  <td>
+		    <table width='100%'>
+		    <tr>
+			<td>
+                    <!-- START OF custom page content. -->
+			  
+<table width='100%'>
+<tr valign='top' width='100%'>
+  <td valign='top' width='100%'>
+    <table width='100%'>
+    <tr>
+      <td width='100%' id='header_info' style='display: none;'>
+        <script>
+	 createTable('<table width="100%" cellpadding="4" cellspacing="0" ><tr><td style="height:10px;"></td></tr><tr><td><ol style="font-family: verdana; font-size: 8pt;"><li>A form should automatically display similar to the image below.</li><li>When prompted, verify that the publisher is "<b>Cloudpath Networks, Inc.</b>".</li><li>Click "<b>Run</b>".</li></ol></td></tr><tr><td align="center"><img src="images/JavaSecurityPopup.jpg" alt="Sample java security pop up image"/></td></tr><tr style="height:10px;"><td></td></tr></table><table width="100%" cellpadding="0" cellspacing="0"><tr id="line"><td></td></tr><tr><td width="100%" align="center"><img width="318" height="10" src="images/MovingStatus.gif"/></td></tr><tr id="line"><td></td></tr></table>', '000066', 'inner_loading_table');
+        </script>
+      </td>
+    </tr>
+    <tr>
+      <td style='height: 1px;' width='100%' align='center'>
+        <script src="xc_script_applet.php"></script><br/>
+      </td>
+    </tr>
+    </table>
+  </td>
+</tr>
+<tr style='height: 10px;'><td></td></tr>
+<tr id='content-line-bottom'><td></td></tr>
+<tr id='content-spacing'><td></td></tr>
+<tr>
+  <td  id='content-small-font' style='padding-left: 10px;'>
+    If XpressConnect does not display, click here to go to the <a href="page4_download.html?cancel_activex=1">manual download page</a>.
+  </td>
+</tr>
+</table>
+
+		        <!-- END OF custom page content. -->
+              	</td>
+		    </tr>
+		    </table>
+		 </td>
+	    </tr>
+          
+          <tr height=100%><td></td></tr>
+          </table>
+        <!-- END OF CONTENT AREA -->
+        </td>
+        <td height='100%' id='frame-curve-side'><img width='16px' src='images/CurveSideImage.gif' height='100%' alt="Background curve side image"/></td>
+      </tr>
+
+      <tr height='1%'>
+        <td height='1%' id='frame-curve-bottom'><img height='20px' width='16px' src="images/CurveLlImage.gif" alt="Background curve lower image"/></td>
+	<td>&nbsp;</td>
+        <td height='1%' id='frame-curve-bottom'><img height='20px' width='16px' src="images/CurveLrImage.gif" alt="Background curve lower image" /></td>
+      </tr>
+      </table>
+    </td>
+    <td></td>
+  </tr>
+  </table>
+<tr><td></td></tr>
+</table>
+
+<script>
+	doEndOfBody();
+</script>
+
+</body>
+</html>

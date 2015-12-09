@@ -1,0 +1,110 @@
+[core]
+cache_dir = /var/cache/mopidy
+config_dir = /etc/mopidy
+data_dir = /var/lib/mopidy
+max_tracklist_length = 10000
+
+[logging]
+color = true
+console_format = %(levelname)-8s %(message)s
+debug_format = %(levelname)-8s %(asctime)s [%(process)d:%(threadName)s] %(name)s\n  %(message)s
+debug_file = /var/log/mopidy/mopidy-debug.log
+config_file = /etc/mopidy/logging.conf
+
+[audio]
+mixer = software
+mixer_volume = 
+output = autoaudiosink
+
+[proxy]
+scheme = 
+hostname = 
+port = 
+username = 
+password = 
+
+[mobile]
+enabled = true
+title = Mopidy Mobile on $hostname
+ws_url = 
+
+[spotify]
+enabled = true
+username = j.e.sansoucie@gmail.com
+password = ********
+bitrate = 160
+volume_normalization = true
+private_session = false
+timeout = 10
+allow_cache = true
+allow_network = true
+allow_playlists = true
+search_album_count = 20
+search_artist_count = 10
+search_track_count = 50
+toplist_countries = 
+
+[mpd]
+enabled = true
+hostname = 127.0.0.1
+port = 6600
+password = 
+max_connections = 20
+connection_timeout = 60
+zeroconf = Mopidy MPD server on $hostname
+command_blacklist = 
+  listall
+  listallinfo
+
+[http]
+enabled = true
+hostname = 127.0.0.1
+port = 6680
+static_dir =
+zeroconf = Mopidy HTTP server on $hostname
+
+[stream]
+enabled = true
+protocols = 
+  http
+  https
+  mms
+  rtmp
+  rtmps
+  rtsp
+metadata_blacklist = 
+timeout = 5000
+
+[m3u]
+enabled = true
+playlists_dir = /var/lib/mopidy/playlists
+
+[softwaremixer]
+enabled = true
+
+[file]
+enabled = true
+media_dirs = 
+  $XDG_MUSIC_DIR|Music
+  ~/|Home
+show_dotfiles = false
+follow_symlinks = false
+metadata_timeout = 1000
+
+[local]
+enabled = true
+library = json
+media_dir = /var/lib/mopidy/media
+data_dir = /var/lib/mopidy/local
+scan_timeout = 1000
+scan_flush_threshold = 100
+scan_follow_symlinks = false
+excluded_file_extensions = 
+  .directory
+  .html
+  .jpeg
+  .jpg
+  .log
+  .nfo
+  .png
+  .txt
